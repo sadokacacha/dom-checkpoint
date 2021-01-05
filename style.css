@@ -1,0 +1,140 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(  #525bc0,#f08f8f, #5562e7) ;
+    background-size: cover;
+}
+
+
+.wlc img{
+width: auto;
+margin: 0%;
+padding: 0%;
+}
+
+
+.top_bar{
+    background: linear-gradient(#b141a2, #707adfc9);
+    height: 200px;
+    padding-left: 70px;
+   
+}
+
+.top_bar .fav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+.top_bar .fav i{
+    color: rgba(92, 10, 10, 0.897);
+    font-size: 30px;
+    text-decoration: none;
+}
+.fav i :hover{
+    color: red;
+
+}
+nav ul{
+    display:inline-block;
+    list-style:none;
+}
+
+nav ul li {
+    display:inline-block;
+    margin-right: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+   
+
+    
+}
+.carousal_container{
+    width: 50%;
+    margin: auto;
+    border: red;
+    border-style: inset;
+    border-radius: 11px;
+    padding: 20px;
+    
+    
+}
+.carousal_container h1 {
+    
+    background: linear-gradient(#ce6262, #6b6fa7);
+    width: auto; height: 50px;
+    border-radius: 7px;
+    font-family: 'Bungee', cursive;
+    color: rgb(241, 216, 172);
+    font-size: large;
+
+}
+
+
+.carousal_container .carousal_slide img{
+    width: 500px; height: 250px;
+}
+.carousal_slide form  {
+    display: inline-block;
+    font-family: 'Bungee', cursive;
+    color: rgba(141, 95, 10, 0.815);
+    font-size: large;
+
+}
+.carousal_slide form input {
+    background-color: rgb(211, 143, 143);
+    border: none;
+    border-radius: 9px;
+}  
+.carousal_slide form select {
+    background-color: rgb(204, 87, 87);
+    border: none;
+    border-radius: 9px;
+} 
+
+
+ul a {
+    text-decoration: none;
+}
+.cake_cart ul {
+
+    display: inline-block;
+   
+      
+}
+.cake_cart li {
+    font-family: 'Bungee', cursive;
+    color: rgb(197, 169, 116); 
+    display: inline-block;
+    justify-content: center;
+    font-size: large;
+      
+}
+.cake_cart button{
+    border: none;
+    background-color:rgb(156, 20, 20) ;
+    border-radius: 6px;
+    
+}
+
+
+
+
+
+
+
+
+.cart_items img {
+    width: 160px; height: auto;
+    margin-top: 100px;
+    margin-left: 80px;
+    
+}
+

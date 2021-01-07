@@ -31,7 +31,7 @@
 <li><a href="#"></a></li>
 
  </ul>    
- <a class="fav" href="#" target="blank"> <i class="fas fa-heart"></i> </a>
+ 
  <a class="money" href="ur wallet"></a>
  <a  href="index.html"> <img alt="banner_logo" src="tcs-logo-uk_1_.png" style="width: 250px;" > </a>
 </nav>
@@ -39,9 +39,7 @@
 
 <div class="carousal_container">
     <h1>our Cakes</h1>
-
     <div class="carousal_slide">
-      <div class="cart_row">
         <img src="indulgent-baked-chocolate-cheesecake.jpg" alt="">
         <form class="cake_list"  >
     <label for="cake">Choose a cake:</label>
@@ -49,40 +47,40 @@
       <option value="half">half</option>
       <option value="full">full</option>
     </select>
-    <input class="add_cart" type="button" value="add to cart">
-    <a class="fav_cake" href="#"> <i class="fas fa-heart"></i> </a>
-   <p>$38.21</p> 
+    <input type="button" value="add to cart">
+     <i class="fas fa-heart fa-2x "></i> 
+   <p>38.21</p> 
    
   </form>
-  </div>
-  <div class="cart_row">
+  
+        
         <img src="Caramel_Vanilla_Cheesecake1.jpg" alt="">
+        
         <form class="cake_list"  >
     <label for="cake">Choose a cake:</label>
     <select name="cakz" id="cake2">
       <option value="half">half</option>
       <option value="full">full</option>
     </select>
-    <input class="add_cart" type="button" value="add to cart">
-    <a class="fav_cake" href="#"> <i class="fas fa-heart"></i> </a>
-    <p>$58.35</p> 
+    <input type="button" value="add to cart">
+     <i class="fas fa-heart fa-2x"></i> 
+    <p>58.35</p> 
   </form>
-  </div>  
-  <div class="cart_row">   
+        
         <img src="slim-cherry-cheesecake-1457047624.jpg" alt="">
+
         <form class="cake_list"  >
     <label for="cake">Choose a cake:</label>
     <select name="cakz" id="cake3">
       <option value="half">half</option>
       <option value="full">full</option>
     </select>
-    <input class="add_cart" type="button" value="add to cart">
-    <a class="fav_cake" href="#"> <i class="fas fa-heart"></i> </a>
-     <p>$23.16</p>
+    <input type="button" value="add to cart">
+    <i class="fas fa-heart fa-2x"></i> 
+     <p>23.16</p>
   </form>
-</div> 
+ 
 
-<div class="cart_row"> 
         <img src="delicious-chocolate-cheesecake.jpg" alt="">
         <form class="cake_list"  >
     <label for="cake">Choose a cake:</label>
@@ -90,11 +88,11 @@
       <option value="half">half</option>
       <option value="full">full</option>
     </select>
-    <input class="add_cart" type="button" value="add to cart">
-    <a class="fav_cake" href="#"> <i class="fas fa-heart"></i> </a>
-    <p>$48.58</p>
+    <input type="button" value="add to cart">
+    <i class="fas fa-heart fa-2x"></i> 
+    <p>48.58</p>
   </form>
-</div>
+  
     </div>
    
        
@@ -106,19 +104,18 @@
   <h1>
     cake cart
   </h1>
-
-  <div class="cart_cake_to_buy">
+  <div class="cart_rows">
   <ul class="cart_items"> 
   <li class="itemss"  > <img src="Caramel_Vanilla_Cheesecake1.jpg" alt="">          
   <p>Caramel Vanilla Cheese cake</p>
-  <label class="quantity_element" for="cake">quantity:</label>
-    <select name="cake" >
+  <label for="cake">quantity:</label>
+    <select class="quantity" name="cake" >
       <option value="1">1</option>
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
     </select>
-    <p class="cart_price" >$58.35</p>
+    <p class="price" >58.35</p>
      <label for="cake">Choose a cake:</label>
      <select name="cake" >
       <option value="half">half</option>
@@ -129,18 +126,18 @@
   </li>
 </ul>
 </div>
-<div class="cart_cake_to_buy">
+<div class="cart_rows">
 <ul class="cart_items"> 
   <li class="itemss"  > <img src="delicious-chocolate-cheesecake.jpg" alt="">          
     <p>chocolate-cheesecake</p>
-    <label class="quantity_element" for="cake">quantity:</label>
-      <select name="cake" >
+    <label for="cake">quantity:</label>
+      <select class="quantity" name="cake" >
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
       </select>
-    <p class="cart_price" >$48.58</p>
+    <p class="price" >48.58</p>
     <label for="cake">Choose a cake:</label>
       <select name="cake" >
         <option value="half">half</option>
@@ -149,10 +146,10 @@
       <button class="btn_remove">  remove  </button>
     </li>
 </ul>
-<h2>total:$106.93</h2>
 </div>
 </div>
-
+<h2>total:</h2>
+<span class="total_price" >106.93</span>
 
 
 

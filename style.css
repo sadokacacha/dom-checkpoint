@@ -31,15 +31,16 @@ padding: 0%;
     justify-content: flex-end;
     margin-right: 10%;
 }
-.top_bar .fav i{
-    color: rgba(92, 10, 10, 0.897);
-    font-size: 30px;
-    text-decoration: none;
-}
-.fav i :hover{
-    color: red;
+
+.fas{
+    color: rgb(224, 43, 43);
+    
+    
 
 }
+
+
+
 nav ul{
     display:inline-block;
     list-style:none;
